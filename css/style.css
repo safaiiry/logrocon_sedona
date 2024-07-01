@@ -1,7 +1,7 @@
 :root {
-    --color-black: #000000;
-    --color-white: #ffffff;
-    --color-blue: #83B3D3;
+    --primary-color: #000000;
+    --second-primary: #ffffff;
+    --background-color: #83B3D3;
 }
 .page {
     color: #333333;
@@ -18,8 +18,8 @@
 }
 
 .btn {
-    color: var(--color-white); 
-    background-color: var(--color-blue);
+    color: var(--second-primary); 
+    background-color: var(--background-color);
     font-family: inherit;
     font-size: 16px;
     font-weight: 700;
@@ -42,20 +42,20 @@
 }
 
 .navigation__link {
-    color: var(--color-black);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
 .footer-phone {
-    color: var(--color-black);
+    color: var(--primary-color);
     font-size: 40px;
     line-height: 40px;
     text-decoration: none;
 }
 
 .filter {
-    color: var(--color-white);
-    background-color: var(--color-blue);
+    color: var(--second-primary);
+    background-color: var(--background-color);
     background-image: url("../img/for_catalog/img_photo/catalog-background.jpg");
     background-size: cover;
 }
@@ -73,7 +73,7 @@
 .search__title,
 .subscribe__title,
 .results__title {
-    color: var(--color-black);
+    color: var(--primary-color);
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -94,7 +94,7 @@
 }
 
 .fs-price__input {
-    color: var(--color-white);
+    color: var(--second-primary);
     background-color: transparent;
   
     font-family: inherit;
@@ -111,7 +111,7 @@
 }
 
 .card__link {
-    color: var(--color-black);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -122,7 +122,7 @@
 
 .advice-list {
     color: #333333;
-    background-color: var(--color-white);
+    background-color: var(--second-primary);
 }
 
 .advice-list__item,
@@ -132,11 +132,11 @@
 
 .advantages__item {
     color: #ffffff;
-    background-color: var(--color-blue);
+    background-color: var(--background-color);
 }
 
 .advice-list .advice-list__item:nth-child(even) {
-    background-color: var(--color-white);
+    background-color: var(--second-primary);
 }
 
 .advantages__item-title,
@@ -158,20 +158,20 @@
 }
 
 .pagination-link {
-    color: var(--color-white);
-    background-color: var(--color-blue);
+    color: var(--second-primary);
+    background-color: var(--background-color);
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
 }
 
 .subscribe__title {
-    color: var(--color-white);
+    color: var(--second-primary);
 }
 
 .subscribe {
-    color: var(--color-white);
-    background-color: var(--color-blue);
+    color: var(--second-primary);
+    background-color: var(--background-color);
     background-image: url("../images/background/subscribe.jpg");
     background-size: cover;
 }
@@ -183,7 +183,7 @@
 }
 
 .form-button__reset {
-    color: var(--color-white);
+    color: var(--second-primary);
     background-color: transparent;
   
     font-family: inherit;
