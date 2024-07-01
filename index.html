@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
     <head>
         <meta charset="utf-8">
         <title>Седона</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
         <header class="header">
             <nav class="navigation">
                 <a class="navigation__logo">
-                    <img src="" alt="Логотип Седона">
+                    <img src="./img/for_index/svg/logo.svg" alt="Логотип Седона">
                 </a>
                 <ul class="navigation__list">
                     <li class="navigation__item">
@@ -19,14 +20,16 @@
                         <a class="navigation__link" href="#">О Седоне</a>
                     </li>
                     <li class="navigation__item">
-                        <a class="navigation__link" href="#">Гостиницы</a>
+                        <a class="navigation__link" href="catalog.html">Гостиницы</a>
                     </li>
                 </ul>
             </nav>
             <div class="additional-menu">
                 <a class="additional-menu__search" href="#">Поиск</a>
-                <a class="additional-menu__favourites" href="#">Избранное</a>
-                <button class="additional-menu__btn" type="button">Хочу сюда!</button>
+                <a class="additional-menu__favourites" href="#">
+                    Избранное
+                </a>
+                <button class="additional-menu__btn btn" type="button">Хочу сюда!</button>
             </div>
         </header>
 
@@ -43,7 +46,7 @@
                                 городок</h3>
                             <p class="advantages__item-text">Седона — не аттракцион для туристов, там течёт 
                                 своя жизнь</p>
-                            <img class="advantages__item-photo" alt="Фото Седоны">
+                            <img class="advantages__item-photo" src="./img/for_index/img_photo/photo-1.jpg" alt="Фото Седоны">
                         </li>
 
                         <ul class="advice-list">
@@ -68,7 +71,7 @@
                             <h3 class="advantages__item-title">Там есть
                                 мост дьявола</h3>
                             <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-                            <img class="advantages__item-photo" alt="Фото моста дьявола">
+                            <img class="advantages__item-photo" src="./img/for_index/img_photo/photo-2.jpg" alt="Фото моста дьявола">
                         </li>
                         <li class="advantages__item">
                             <h3 class="advantages__item-title">Небольшая
@@ -93,7 +96,7 @@
                 <p class="search__text">Укажите предполагаемые даты поездки,
                     и мы покажем вам лучшие предложения гостиниц в Седоне
                 </p>
-                <a class="search__button" href="catalog.html">Поиск гостиницы в Седоне</a>
+                <a class="search__btn btn" href="catalog.html">Поиск гостиницы в Седоне</a>
             </section>
 
             <section class="subscribe">
@@ -102,7 +105,7 @@
                     честное бойскаутское!</p>
                 <form action="https://echo.htmlacademy.ru/" method="post" class="subscribe__form">
                     <input type="email" id="email" name="user_email" placeholder="Ваш e-mail" class="subscribe__form-input">
-                    <button type="submit" class="subscribe__btn">Подписаться</button>
+                    <button type="submit" class="subscribe__btn btn">Подписаться</button>
                 </form>
             </section>
         </main>
@@ -126,9 +129,9 @@
                 </li>
             </ul>
 
-            <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
             <a class="footer-logo" href="https://htmlacademy.ru/">
-                <img class="htmlacademy" alt="Логотип HTML Academy">
+                <img src="./img/for_index/svg/htmlacademy_logo.svg" class="htmlacademy" alt="Логотип HTML Academy">
             </a>
         </footer>
     </body>

@@ -2,24 +2,25 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Седона</title>
+        <title>Гостиницы Седоны</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
         <header class="header">
             <nav class="navigation">
                 <a class="navigation__logo">
-                    <img src="" alt="Логотип Седона">
+                    <img src="./img/for_index/svg/logo.svg" alt="Логотип Седона">
                 </a>
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a class="navigation__link" href="#">Главная</a>
+                        <a class="navigation__link" href="index.html">Главная</a>
                     </li>
                     <li class="navigation__item">
                         <a class="navigation__link" href="#">О Седоне</a>
                     </li>
                     <li class="navigation__item">
-                        <a class="navigation__link" href="#">Гостиницы</a>
+                        <a class="navigation__link">Гостиницы</a>
                     </li>
                 </ul>
             </nav>
@@ -31,11 +32,12 @@
         </header>
 
         <main class="main">
+          <section class="filter">
             <h1 class="main__title">Гостиницы Седоны</h1>
             <nav class="main__nav">
                 <ul class="main__nav-list">
                     <li class="main__nav-item">
-                        <a class="main__nav-link">
+                        <a class="main__nav-link" href="index.html">
                             <img class="main__nav-photo" alt="Переход домой">
                         </a>
                     </li>
@@ -44,9 +46,9 @@
                     </li>
                 </ul>
             </nav>
-            <form action="https://echo.htmlacademy.ru/" method="git" class="main-form">
+            <form action="https://echo.htmlacademy.ru/" method="get" class="main-form">
                 <fieldset class="fs-infrastructure">
-                    <legend class="fs-infrastructure__legend legend">Инфраструктура:</legend>
+                    <legend class="fs-infrastructure__legend legend__title">Инфраструктура:</legend>
                     <input type="checkbox" id="pool" name="pool" checked>
                     <label for="pool">Бассейн</label><br>
                     <input type="checkbox" id="parking" name="parking" checked> 
@@ -55,7 +57,7 @@
                     <label for="wifi">Wi-Fi</label>
                 </fieldset>
                 <fieldset class="fs-housing">
-                    <legend class="fs-housing__legend legend">Тип жилья:</legend>
+                    <legend class="fs-housing__legend legend__title">Тип жилья:</legend>
                     <input type="radio" id="hotel" name="hotel" checked>
                     <label for="hotel">Гостиница</label><br>
                     <input type="radio" id="motel" name="motel"> 
@@ -64,7 +66,7 @@
                     <label for="apart">Апартаменты</label>
                 </fieldset>
                 <fieldset class="fs-price">
-                    <legend class="fs-price__legend legend">Стоимость, ₽:</legend>
+                    <legend class="fs-price__legend legend__title">Стоимость, ₽:</legend>
                     <label class="fs-price__field">
                         <span class="fs-price__title">от</span>
                         <input class="fs-price__input" type="number" name="price-from" value="0" min="0" max="10000" step="100">
@@ -76,10 +78,11 @@
                     <input type="range" id="range" value="9000">
                 </fieldset>
                 <div class="form-buttons">
-                    <button class="form-button" type="submit">Применить</button>
-                    <button class="form-button" type="reset">Сбросить</button>
+                    <button class="form-button__submit" type="submit">Применить</button>
+                    <button class="form-button__reset" type="reset">Сбросить</button>
                 </div>
             </form>
+          </section>
 
             <section class="results">
                 <p class="results__title">Найдено гостиниц: 38</p>
@@ -120,7 +123,7 @@
                       </a>
                     </h4>
           
-                    <img class="card__img" src="" alt="">
+                    <img class="card__img" src="./img/for_catalog/img_photo/hotel-1.jpg" alt="">
           
                     <p class="card-description">
                       <span class="card-description__title">Гостиница</span>
@@ -143,7 +146,7 @@
                       </a>
                     </h4>
           
-                    <img class="card__img" src="" alt="">
+                    <img class="card__img" src="./img/for_catalog/img_photo/hotel-2.jpg" alt="">
           
                     <p class="card-description">
                       <span class="card-description__title">Гостиница</span>
@@ -166,7 +169,7 @@
                       </a>
                     </h4>
           
-                    <img class="card__img" src="" alt="">
+                    <img class="card__img" src="./img/for_catalog/img_photo/hotel-3.jpg" alt="">
           
                     <p class="card-description">
                       <span class="card-description__title">Гостиница</span>
@@ -189,7 +192,7 @@
                       </a>
                     </h4>
           
-                    <img class="card__img" src="" alt="">
+                    <img class="card__img" src="./img/for_catalog/img_photo/hotel-4.png" alt="">
           
                     <p class="card-description">
                       <span class="card-description__title">Гостиница</span>
@@ -284,7 +287,7 @@
 
             <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
             <a class="footer-logo" href="https://htmlacademy.ru/">
-                <img class="htmlacademy" alt="Логотип HTML Academy">
+                <img class="htmlacademy" src="/img/for_index/svg/htmlacademy_logo.svg" alt="Логотип HTML Academy">
             </a>
         </footer>
     </body>
