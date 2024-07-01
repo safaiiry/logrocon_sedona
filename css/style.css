@@ -1,19 +1,8 @@
-@font-face {
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    src: url("../fonts/ptsans-400.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-    src: url("../fonts/ptsans-700.woff2") format("woff2");
-  }
-  
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-blue: #83B3D3;
+}
 .page {
     color: #333333;
     font-family: "PT Sans", sans-serif;
@@ -29,8 +18,8 @@
 }
 
 .btn {
-    color: #ffffff;
-    background-color: #83B3D3;
+    color: var(--color-white); 
+    background-color: var(--color-blue);
     font-family: inherit;
     font-size: 16px;
     font-weight: 700;
@@ -53,20 +42,20 @@
 }
 
 .navigation__link {
-    color: #000000;
+    color: var(--color-black);
     text-decoration: none;
 }
 
 .footer-phone {
-    color: #000000;
+    color: var(--color-black);
     font-size: 40px;
     line-height: 40px;
     text-decoration: none;
 }
 
 .filter {
-    color: #ffffff;
-    background-color: #83B3D3;
+    color: var(--color-white);
+    background-color: var(--color-blue);
     background-image: url("../img/for_catalog/img_photo/catalog-background.jpg");
     background-size: cover;
 }
@@ -84,7 +73,7 @@
 .search__title,
 .subscribe__title,
 .results__title {
-    color: #000000;
+    color: var(--color-black);
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -105,7 +94,7 @@
 }
 
 .fs-price__input {
-    color: #ffffff;
+    color: var(--color-white);
     background-color: transparent;
   
     font-family: inherit;
@@ -122,7 +111,7 @@
 }
 
 .card__link {
-    color: #000000;
+    color: var(--color-black);
     text-decoration: none;
 }
 
@@ -133,7 +122,7 @@
 
 .advice-list {
     color: #333333;
-    background-color: #ffffff;
+    background-color: var(--color-white);
 }
 
 .advice-list__item,
@@ -143,16 +132,16 @@
 
 .advantages__item {
     color: #ffffff;
-    background-color: #83B3D3;
+    background-color: var(--color-blue);
 }
 
 .advice-list .advice-list__item:nth-child(even) {
-    background-color: #ffffff;
+    background-color: var(--color-white);
 }
 
 .advantages__item-title,
 .advice-list__title {
-    color: #000000;
+    color: var(--color-black);
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
@@ -160,7 +149,7 @@
 }
 
 .advantages__item > .advantages__item-title {
-    color: #ffffff;
+    color: var(--color-white);
 }
 
 .advantages__item-text,
@@ -169,20 +158,20 @@
 }
 
 .pagination-link {
-    color: #ffffff;
-    background-color: #83B3D3;
+    color: var(--color-white);
+    background-color: var(--color-blue);
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
 }
 
 .subscribe__title {
-    color: #ffffff;
+    color: var(--color-white);
 }
 
 .subscribe {
-    color: #ffffff;
-    background-color: #83B3D3;
+    color: var(--color-white);
+    background-color: var(--color-blue);
     background-image: url("../images/background/subscribe.jpg");
     background-size: cover;
 }
@@ -194,7 +183,7 @@
 }
 
 .form-button__reset {
-    color: #ffffff;
+    color: var(--color-white);
     background-color: transparent;
   
     font-family: inherit;
