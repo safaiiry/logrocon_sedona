@@ -113,6 +113,8 @@ img {
 
 .navigation__logo-img {
     display: block;
+    width: 139px;
+    height: 70px;
 }
 
 .navigation__item {

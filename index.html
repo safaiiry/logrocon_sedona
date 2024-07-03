@@ -123,7 +123,7 @@
                     <label class="subscribe-field">
                         <input type="email" id="email" name="user_email" placeholder="Ваш e-mail" class="subscribe__form-input">
                     </label>
-                    <button type="submit" class="subscribe__btn btn">Подписаться</button>
+                    <button id="button" type="submit" class="subscribe__btn btn">Подписаться</button>
                 </form>
             </section>
         </main>
@@ -136,7 +136,7 @@
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__linsk" href="https://www.facebook.com/htmlacademy">
+                    <a class="social-list__link" href="https://www.facebook.com/htmlacademy">
                         <img src="./img/for_index/icons/facebook.svg" alt="facebook">
                     </a>
                 </li>
@@ -154,4 +154,7 @@
         </footer>
     </body>
 </html>       
-
+<script>
+    const buttonElement = document.getElementById("button");
+    console.log(buttonElement);
+</script>
